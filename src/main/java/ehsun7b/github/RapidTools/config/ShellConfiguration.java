@@ -6,8 +6,9 @@ import org.springframework.shell.jline.PromptProvider;
 
 @Configuration
 public class ShellConfiguration implements PromptProvider {
+
     @Override
     public AttributedString getPrompt() {
-        return new AttributedString("Rapid:>");
+        return new AttributedString("Rapid ⚡ ");
     }
 }
